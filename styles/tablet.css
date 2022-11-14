@@ -1,0 +1,135 @@
+/*------------ HEADER ---------------*/
+
+header {
+  height: 455px;
+}
+
+header img {
+  width: 175px;
+  height: 35px;
+  margin: 0;
+}
+
+.header__title-container {
+  width: 60%;
+}
+
+.header__title-container h1 {
+  font-size: 4rem;
+  line-height: 4.2rem;
+}
+
+.header__title-container p {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.header__button {
+  top: 397px;
+}
+
+/*------------ MAIN ---------------*/
+
+/*$ --------- Exchange Section ----------- */
+
+.main__exchange-container--title {
+  width: 60%;
+}
+
+.main__exchange-container--title h2 {
+  font-size: 4rem;
+  line-height: 4.2rem;
+}
+
+.main__exchange-container--title p {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.main__tables-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*$ ---------- Product Section ------------*/
+
+.main__product-container--title {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main__product-container--title h2 {
+  font-size: 4rem;
+  line-height: 4.2rem;
+}
+
+.main__product-container--title p {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.product-card--container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/*$ ------------- Bitcoin Section ---------------*/
+
+.bitcoin-img--container {
+  position: relative;
+}
+
+.bitcoin-img--container h2 {
+  font-size: 4rem;
+  line-height: 4.2rem;
+  padding: 0;
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 141px);
+} 
+
+/*$ ------------- Plans Section ---------------*/
+
+.main__plans-title {
+  width: 60%;
+}
+
+.main__plans-title h2 {
+  font-size: 4rem;
+  line-height: 4.2rem;
+}
+
+.main__plans-title p {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.plans-container--slider {
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.plans-container--slider::-webkit-scrollbar {
+  display: none;
+}
+
+
+/*------------- FOOTER ---------------*/
+ 
+footer {
+  height: 200px;
+}
+
+footer a {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer__logo img {
+  height: 110px;
+  width: 110px;
+}
